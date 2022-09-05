@@ -1,0 +1,47 @@
+@importar  URL ( 'https://fonts.googleapis.com/css?family=Galada&display=swap' );
+
+* {
+    margen :  0 ;
+    relleno :  0 ;
+}
+
+cuerpo {
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : centro;
+    min-altura :  100 vh ;
+    fondo : negro;
+}
+
+. contenedor {
+    tamaño de fuente :  33 vw ;
+    color : rojo;
+    animacion :  3 s facilidad infinito corazon;
+    sombra de texto :  4 px  4 px  25 px  rgba ( 255 ,  0 ,  0 ,  0.6 );
+}
+
+. contenedor _ contenido {
+    posición : absoluta;
+    izquierda :  50 % ;
+    superior :  50 % ;
+    transformar :  traducir ( -50 % ,  -50 % );
+    color :  #fff ; _
+    alineación de texto : centro;
+    familia tipográfica :  'Galada' , cursiva;
+}
+
+. contenedor _ contenido  h1 {
+    tamaño de fuente :  50 px ;
+}
+
+. contenedor _ contenido  p {
+    tamaño de fuente :  22 px ;
+}
+
+@keyframes corazón {
+
+    50 % {
+        transformar :  escala ( 1.3 );
+    }
+
+}
